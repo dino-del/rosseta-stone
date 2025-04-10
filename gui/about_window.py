@@ -29,7 +29,8 @@ class AboutDialog(QDialog):
         layout.addWidget(title)
 
         layout.addWidget(QLabel("Built for telemetry transformation and forwarding of Data from a UDP source to other systems"))
-        layout.addWidget(QLabel("v1.0 — Developed by James Di Natale GitHub @dino-del"))
+        layout.addWidget(QLabel("v1.5 — Developed by James Di Natale GitHub @dino-del"))
+        layout.addWidget(QLabel("This version includes the custome template option"))
         layout.addWidget(QLabel("Software is 'as is' and no warranty is provided"))
         layout.addWidget(QLabel("Copyright (c) 2025 James Di Natale"))
         layout.addStretch()
